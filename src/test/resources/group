@@ -1,0 +1,5 @@
+root:x:0:
+sudo:x:27:cleroux,dude
+cleroux:x:1000:
+dude:x:1001:
+dudette:x:1002:
