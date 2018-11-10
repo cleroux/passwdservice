@@ -59,6 +59,7 @@ mvn -Djetty.http.port=80 jetty:run
 * [Groups Query](#groupsquery) : `GET /groups/query`
 * [Group ID](#groupid) : `GET /groups/{gid}`
 
+<hr>
 
 ### <a name="users">Users</a>
 
@@ -87,6 +88,7 @@ Return a list of all users on the system, as defined in the /etc/passwd file.
 
 **Code** : `500 Internal Server Error`
 
+<hr>
 
 ### <a name="usersquery">Users Query</a>
 
@@ -124,6 +126,7 @@ Return a list of users matching all of the specified query fields. Supports only
 
 **Code** : `500 Internal Server Error`
 
+<hr>
 
 ### <a name="userid">User ID</a>
 
@@ -154,6 +157,8 @@ OR
 **Condition** : If passwd file is absent or malformed.
 
 **Code** : `500 Internal Server Error`
+
+<hr>
 
 ### <a name="usergroups">User Groups</a>
 
@@ -188,6 +193,7 @@ OR
 
 **Code** : `500 Internal Server Error`
 
+<hr>
 
 ### <a name="groups">Groups</a>
 
@@ -250,6 +256,7 @@ containing all the specified members will be returned.
 
 **Code** : `500 Internal Server Error`
 
+<hr>
 
 ### <a name="groupid">Group ID</a>
 
