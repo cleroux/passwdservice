@@ -100,12 +100,12 @@ Return a list of users matching all of the specified query fields. Supports only
 
 **URL Parameters** :
 
-  `name=[string]` (Optional) : User name
-  `uid=[integer]` (Optional) : User ID
-  `gid=[integer]` (Optional) : Group ID
-  `comment=[string]` (Optional) : Comment
-  `home=[string]` (Optional) : Home directory
-  `shell=[string]` (Optional) : Shell executable
+  `name=[string]` (Optional) : User name  
+  `uid=[integer]` (Optional) : User ID  
+  `gid=[integer]` (Optional) : Group ID  
+  `comment=[string]` (Optional) : Comment  
+  `home=[string]` (Optional) : Home directory  
+  `shell=[string]` (Optional) : Shell executable  
 
 #### Success Response
 
@@ -234,9 +234,9 @@ containing all the specified members will be returned.
 
 **URL Parameters** :
 
-  `name=[string]` (Optional) : Group name
-  `gid=[integer]` (Optional) : Group ID
-  `member=[string]` (Optional, Repeatable) : User name
+  `name=[string]` (Optional) : Group name  
+  `gid=[integer]` (Optional) : Group ID  
+  `member=[string]` (Optional, Repeatable) : User name  
 
 #### Success Response
 
